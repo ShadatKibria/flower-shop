@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.rose-flower img {
+    width: 380px;
+    height: 480px;
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+.banner {
+    display: flex;
+    background: #E554731A;
+    height: 33.2rem;
+}
+
+.content {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.content p {
+    width: 50%;
+    margin-top: 38px;
+}
+
+.content h1 {
+    font-size: 54px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.content button {
+    margin-top: 14px;
+    background-color: #E55473;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 6px;
+}
