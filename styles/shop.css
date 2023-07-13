@@ -104,6 +104,60 @@
     border-radius: 6px;
 }
 
+/* Deal section styles */
+
+.section-deal {
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-top: 110px;
+    margin-right: 210px;
+    margin-left: 210px;
+    padding: 50px;
+    background-size: contain;
+}
+
+.section-deal {
+    text-align: center;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-content {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#deal-email {
+    background: #FFF;
+    padding: 10px;
+    width: 330px;
+    height: 25px;
+    border: none;
+}
+
+.deal-button {
+    border-radius: 4px;
+    background: #E55473;
+    width: 100px;
+    height: 50px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
 /* Footer styles*/
 
 footer {
