@@ -50,7 +50,11 @@
     border-radius: 6px;
 }
 
-/* 2nd Section */
+/* Feature section styles */
+
+
+
+/* Offer section styles */
 
 .offer {
     display: flex;
@@ -102,6 +106,76 @@
     margin-left: 150px;
     width: 120px;
     border-radius: 6px;
+}
+
+/* Social/Feature section styles */
+
+.social-section {
+    text-align: center;
+}
+
+.social-title {
+    margin-top: 100px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-info {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Img section styles */
+
+#feature .first img {
+    width: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 10px;
+}
+
+#feature .second img {
+    width: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 10px;
+}
+
+#feature img {
+    width: 300px;
+    height: 290px;
+}
+
+
+#feature .third img {
+    width: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+#social img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* Support section styles */
+
+.support {
+    margin: 120px 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.support-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 500px;
 }
 
 /* Deal section styles */
