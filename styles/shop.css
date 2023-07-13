@@ -1,38 +1,46 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
 
+/* 1st Section */
+
 .rose-flower img {
     width: 380px;
     height: 480px;
-    margin-right: 240px;
+    margin-left: 130px;
     margin-top: 50px;
 }
 
 .banner {
     display: flex;
     background: #E554731A;
-    height: 33.2rem;
+    height: 530px;
 }
 
-.content {
+.banner-content {
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
-.content p {
-    width: 50%;
-    margin-top: 38px;
-}
-
-.content h1 {
-    font-size: 54px;
+.banner-content h1 {
+    font-size: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.content button {
+.banner-content p {
+    width: 500px;
+    margin-top: 38px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 15px;
+}
+
+.banner-content button {
     margin-top: 14px;
     background-color: #E55473;
     color: #FFF;
@@ -40,4 +48,92 @@ body {
     padding: 10px;
     width: 120px;
     border-radius: 6px;
+}
+
+/* 2nd Section */
+
+.offer {
+    display: flex;
+    background: #E554730D;
+    height: 33.2rem;
+    margin-top: 100px;
+}
+
+.offer-pic {
+    width: 300px;
+    height: 374px;
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-top: 85px;
+}
+
+.offer-content {
+    margin-left: 200px;
+    margin-top: 210px;
+}
+
+.offer-content h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 29px;
+}
+
+.offer-content p {
+    width: 450px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.offer-content button {
+    margin-top: 14px;
+    background-color: #E55473;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    margin-left: 150px;
+    width: 120px;
+    border-radius: 6px;
+}
+
+/* Footer styles*/
+
+footer {
+    background-color: #111010;
+}
+
+.footer-title {
+    color: #eee;
+    text-align: center;
+    margin-top: 130px;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.footer-info {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 11px;
+    padding-bottom: 20px;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 40;
+    padding-bottom: 100px;
 }
